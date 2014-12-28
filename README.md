@@ -15,7 +15,7 @@ Just an experiment tracking ISS Satellite (url: [Where the ISS at](http://wheret
 - ```npm install```
 - open main.js
   - call ```satellite.startReceiving(satelliteId, RequestRate);```
-  - eg: ```satellite.startReceiving(25544, 5000);```
+  - e.g.: ```satellite.startReceiving(25544, 5000);```   
   Satellite Id = 25544 - Request Rate = 5 seconds
 - ```node main```
 
